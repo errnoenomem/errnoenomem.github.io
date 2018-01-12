@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>LGMap - Responsive Javascript Map</title>
+        <meta name="description" content="LGMap - Responsive Javascript Map - http://jsmaps.io">
+        <meta name="author" content="LGLab">
+
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/notouch/jquery-3.2.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <link href="lg-map/lg-map.css" rel="stylesheet" type="text/css" />
+        <script src="lg-map/lg-map-libs.js" type="text/javascript"></script>
+        <script src="lg-map/lg-map-panzoom.js"></script>
+        <script src="lg-map/lg-map.min.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/nyc.css" />
+        <script src="js/nyc.js" type="text/javascript"></script>
+        <script src="js/borough_mappings.js" type="text/javascript"></script>
+
+    </head>
+
+    <body>
+
+        <p id="bronx">Bronx</p>
+        <p id="manhattan">Manhattan</p>
+        <p id="queens">Queens</p>
+        <p id="brooklyn">Brooklyn</p>
+        <p id="statenisland">Staten Island</p>
+
+        <div class="wrapper">
+            <a href="../landing.html">
+                <input type="image" id="back_btn" class="btn" src="res/btn/CU-logo.jpg"/>
+            </a>           
+        </div>
+
+        <!-- ------------------------------------------------------- OVERLAY HERE ------------------------------------------------------- -->
+        
+        <div id="my_overlay" class="fullscreen_overlay">
+            <nav class="navbar navbar-inverse" id="myNav">
+                <div class="wrapper">
+                    <input type="image" id="close-overlay-btn" class="btn" src="res/btn/CU-logo.jpg" onClick="closeOverlay()"/>
+                </div>
+            </nav>
+
+            <div class="container overlay_content">
+
+                <div class="header-wrapper">
+                    <h3 id="borough_id"></h3>
+                    <div class="img-wrapper">
+                        <img id="borough_img" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 left_panel">
+                        <div class="text-wrapper">
+                            <p id="en_text">ENGLISH STUFF</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 right_panel"> 
+                        <div class="text-wrapper">
+                            <p id=cn_text>CHINESE STUFF</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container map-container">
+
+            <div class="lg-map-wrapper" id="newYorkCityBoroughs-map"></div>
+
+        </div>
+
+    </body>
+
+</html>

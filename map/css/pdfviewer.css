@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+.backBtn { /* top left button */
+    margin: 15px;
+    margin-top: 75px;
+    margin-left: 35px;
+    height: 50;
+    width: 50px;
+    float: left;
+    position: absolute;
+}
+
+#back_btn:hover {
+    transition: 1s;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.object_wrapper {
+    height: 100%;
+    width: 100%;
+/*    border: 2px solid red;*/
+}
