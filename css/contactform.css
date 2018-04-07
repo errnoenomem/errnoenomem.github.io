@@ -1,0 +1,25 @@
+#form-container {
+	text-align: center;
+	/* padding: 15px; */
+	margin-top: -35px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+
+
+#contact {
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+#form-container label {
+	text-transform: capitalize;
+}
+
+#contact-submit{
+	margin-top: 10px;
+
+}
