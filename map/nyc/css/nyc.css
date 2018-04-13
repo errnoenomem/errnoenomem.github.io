@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(customfonts/ubuntu/Ubuntu-Regular.ttf)
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #231F20;
+    overflow: hidden;
+}
+
+#bronx {
+    left: 965px;
+    top: 100px;
+}
+
+#manhattan {
+    left: 775px;
+    top: 300px; 
+}
+
+#queens {
+    left: 1050px;
+    top: 400px;
+}
+
+#brooklyn {
+    left: 825px;
+    top: 600px;
+}
+
+#statenisland {
+    left: 500px;
+    top: 700px;
+}
+
+.map-container {
+    /*    margin-left: 25%;*/
+    /*    position: fixed;*/
+    /*    float: right;*/
+    width: 1300px;
+}
+
+input {
+    outline: 0 !important;
+}
+
+#back-btn {
+    position: absolute;
+}
+
+.fullscreen_overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.75);
+    overflow-x: hidden;
+    transition: 1s;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 15px;
+    height: 75px;
+    width: 90px;
+    float: left;
+}
+
+.wrapper img {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+#myNav {
+    background-color: rgba(0,0,0, 0);
+    text-align: center;
+    border: none;
+}
+
+.header-wrapper h3 {
+    color: white;
+    font-family: Ubuntu;
+    font-size: 50px;
+}
+
+.text-wrapper p {
+    color: white;
+    font-family: Ubuntu;
+    font-size: 18px;
+    text-align: left;
+}
+
+.left_panel {
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.right_panel {
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.img-wrapper {
+    margin: 50px;
+}
+
+.img-wrapper img {
+    height: 320px;
+    width: 650;
+}
+
+h1 {
+    color: white;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+
+p {
+    position: absolute;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 600    ;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .map-container {
+        width: 1150px;
+    }
+
+    #bronx {
+        left: 615px;
+        top: 100px;
+    }
+
+    #manhattan {
+        left: 455px;
+        top: 250px; 
+    }
+
+    #queens {
+        left: 650px;
+        top: 350px;
+    }
+
+    #brooklyn {
+        left: 500px;
+        top: 500px;
+    }
+
+    #statenisland {
+        left: 200px;
+        top: 600px;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1000px) {
+
+    .map-container {
+        width: 900px;
+    }
+
+    #bronx {
+        left: 415px;
+        top: 85px;
+    }
+
+    #manhattan {
+        left: 305px;
+        top: 175px; 
+    }
+
+    #queens {
+        left: 475px;
+        top: 275px;
+    }
+
+    #brooklyn {
+        left: 315px;
+        top: 375px;
+    }
+
+    #statenisland {
+        left: 125px;
+        top: 425px;
+    }
+
+}
+
+

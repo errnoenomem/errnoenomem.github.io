@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(customfonts/ubuntu/Ubuntu-Regular.ttf)
+}
+
+body {
+    background-color: #231F20;  
+    overflow: hidden;
+}
+
+#blurb {
+    font-family: Ubuntu;
+    font-size: 18px;
+    position: absolute;
+    bottom: 15px;
+    right: 50px;
+    color: white;
+}
+
+.fullscreen_overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.75);
+    overflow-x: hidden;
+    transition: 1s;
+    /*    text-align: center;*/
+    /*    margin; 50px;*/
+    /*    padding: 50px;*/
+}
+
+.closeBtn { /* top left button */
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+#close_btn {
+    position: absolute;
+}
+
+#myNav { /* top left button in overlay */
+    background-color: rgba(0,0,0, 0);
+    text-align: center;
+    border: none;
+}
+
+input {
+    outline: 0;
+}
+
+/*
+#close_btn:hover {
+    transition: 1s;
+    background-color: black;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#close_btn2:hover {
+    transition: 1s;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+*/
+
+#state_id {
+    margin-bottom: 50px;
+    font-family: Ubuntu;
+    font-size: 50px;
+    color: white;
+}
+
+.overlay_content {
+    margin-top: 50px;
+    height: 100%;
+}
+
+/* left panel css */
+.left_panel {
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.left_panel p {
+    color: white;
+    font-size: 18px;
+    font-family: Ubuntu;
+    text-align: left;
+}
+
+.header-wrapper {
+}
+
+.header-wrapper img {
+    height: 65px;
+    width: 130px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.header-wrapper h3 {
+    float: left;
+    margin-left: 36%;
+}
+
+.img-wrapper{
+    margin: 25px;
+    text-align: center;
+}
+
+.img-wrapper img {
+    float :none;
+}
+
+/* right panel css */
+.right_panel {
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.right_panel p {
+    color: white;
+    font-size: 18px;
+    font-family: Ubuntu;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+/*
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+}
+*/
