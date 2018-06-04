@@ -1,6 +1,6 @@
 $(document).ready(function(){    
     $('.dropdown').on('mouseenter mouseleave click tap', function(event) {
-        event.preventDefault();
+//        event.preventDefault();
         $(this).toggleClass("open");
     });
 });
