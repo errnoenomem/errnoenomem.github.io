@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Photo Gallery </title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <link href="css/photo-gallery.css" rel="stylesheet">
+    <script src="js/photo-gallery.js"></script>
+    <link href="../css/index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse static-top navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="../index.html">billy.kong@stonybrook.edu</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Photo Gallery</a></li>
+                <li><a href="../storyboard/index.html">Storyboard</a></li>
+                <li><a href="../about/index.html">About Me</a></li>
+                <li><a href="../audio/audio.html">Audio</a></li>
+                <li><a href="../model/index.html">Model</a></li>
+                <li><a href="../stills/index.html">Still</a></li>
+                <li><a href="../title/index.html">Title</a></li>
+                <li><a href="../pencil/index.html">Pencil Test</a></li>
+                <li><a href="../final/index.html">Final Video</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container header">
+
+        <h3> Photo Essay </h3>
+
+    </div>
+
+    <div class="container photo-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/I1.jpg" onclick="openOverlay(src)" />
+
+            </div>
+
+            <div class="col-sm-6 img-wrapper">
+
+                <img src="res/P1.JPG" />
+
+            </div>
+
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/S1.jpg" />
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/I2.jpg" />
+
+            </div>
+
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/P2.jpg" />
+
+            </div>
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/S2.PNG" />
+
+            </div>
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/S3.JPG" />
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/I3.jpg" />
+
+            </div>
+
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/P3.JPG" />
+
+            </div>
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/S4.JPG" />
+
+            </div>
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/P4.JPG" />
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/I4.JPG" />
+
+            </div>
+
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/S5.jpg" />
+
+            </div>
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/I5.JPG" />
+
+            </div>
+            <div class="col-sm-3 img-wrapper">
+
+                <img src="res/P5.jpg" />
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="my_overlay" class="fullscreen_overlay">
+        <img src="res/I1.jpg" id="overlay-img" />
+    </div>
+
+</body>
+
+</html>

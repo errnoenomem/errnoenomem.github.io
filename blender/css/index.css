@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-inverse {
+    position: relative;
+    font-family: Century Gothic;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+/*    margin-top: 25px;*/
+}
+
+.header h3 {
+    font-family: Century Gothic;
+    font-size: 36px;
+}
+
+.header img {
+    width: 100px;
+    height: 50px;
+}
+
+.required {
+/*    border: 1px solid black;*/
+    margin-bottom: 35px;
+}
+
+.required h3 {
+    font-family: Century Gothic;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.required p {
+    font-family: Century Gothic;
+    font-size: 16px;
+}
+
+.bigdog-wrapper {
+    margin-bottom: 25px;
+}
+
+.schematic-info{
+    height: 100%;
+}
+
+.schematic-info h3, p, li{
+    font-family: Century Gothic;
+}
+
+.schematic-info p{
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+li {
+    font-size: 18px;
+}
+
+.bigdog-wrapper img{
+    height: 500px;
+    width: 900px;
+}
+
+.desc {
+    text-align: left;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+.r1 img {
+    width: 500px;
+    height: 300px;
+}
+
+.r2 img {
+    width: 400px;
+    height: 325px;
+}

@@ -1,0 +1,13 @@
+.storyboard-wrapper {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.storyboard-wrapper img{
+    height: 1000px;
+    width: 750px;
+    border: 2px solid black;
+}
+
+

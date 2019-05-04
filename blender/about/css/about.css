@@ -1,0 +1,10 @@
+.portrait-wrapper {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.img-wrapper img {
+    width: 720px;
+    height: 480px;
+}

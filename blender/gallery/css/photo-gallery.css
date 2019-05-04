@@ -1,0 +1,48 @@
+.fullscreen_overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow-x: hidden;
+    transition: 1s;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#overlay-img {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    height: 550px;
+    width: 450px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.photo-gallery {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.img-wrapper {
+    margin: 0px 20px 20px 20px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    float: none;
+}
+
+.img-wrapper img:hover {
+    height: 350px;
+    width: 250px;
+    transition: 0.5s;
+}
+
+.img-wrapper img {
+    height: 300px;
+    width: 200px;
+}
